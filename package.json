@@ -1,0 +1,25 @@
+{
+  "name": "build-tools-pty",
+  "main": "./lib/build-tools-pty",
+  "version": "0.0.0",
+  "description": "Spawn commands in pseudo-terminaly",
+  "keywords": [
+    "build-tools"
+  ],
+  "repository": "https://github.com/atom/build-tools-pty",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "ptyw.js": "^0.3.0"
+  },
+  "providedServices": {
+    "build-tools.environment": {
+      "versions": {
+        "1.0.0": "provideEnvironment"
+      }
+    }
+  }
+}
