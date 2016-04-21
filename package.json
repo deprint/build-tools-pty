@@ -2,7 +2,7 @@
   "name": "build-tools-pty",
   "main": "./lib/build-tools-pty",
   "version": "0.0.0",
-  "description": "Spawn commands in pseudo-terminaly",
+  "description": "Spawn commands in pseudo-terminal",
   "keywords": [
     "build-tools"
   ],
